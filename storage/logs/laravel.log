@@ -248,3 +248,27 @@
 #52 D:\\desi\\project\\dinas Tangsel\\sistem\\tangsel\\server.php(21): require_once('D:\\\\desi\\\\project...')
 #53 {main}
 "} 
+[2018-07-21 17:39:08] local.ERROR: syntax error, unexpected '=' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected '=' at E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateMakeCommand.php:87)
+[stacktrace]
+#0 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('E:\\\\project\\\\dina...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Data...')
+#2 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Providers\\ArtisanServiceProvider.php(518): spl_autoload_call('Illuminate\\\\Data...')
+#3 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(764): Illuminate\\Foundation\\Providers\\ArtisanServiceProvider->Illuminate\\Foundation\\Providers\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#4 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(646): Illuminate\\Container\\Container->build(Object(Closure))
+#5 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(601): Illuminate\\Container\\Container->resolve('command.migrate...', Array)
+#6 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(734): Illuminate\\Container\\Container->make('command.migrate...', Array)
+#7 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(241): Illuminate\\Foundation\\Application->make('command.migrate...')
+#8 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(255): Illuminate\\Console\\Application->resolve('command.migrate...')
+#9 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(267): Illuminate\\Console\\Application->resolveCommands(Array)
+#10 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(148): Illuminate\\Support\\ServiceProvider->Illuminate\\Support\\{closure}(Object(Illuminate\\Console\\Application))
+#11 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(71): Illuminate\\Console\\Application->bootstrap()
+#12 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(317): Illuminate\\Console\\Application->__construct(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Events\\Dispatcher), '5.6.28')
+#13 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Foundation\\Console\\Kernel->getArtisan()
+#14 E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 {main}
+"} 
+[2018-07-21 17:39:09] local.ERROR: Declaration of NunoMaduro\Collision\Writer::write(Whoops\Exception\Inspector $inspector): NunoMaduro\Collision\void must be compatible with NunoMaduro\Collision\Contracts\Writer::write(Whoops\Exception\Inspector $inspector): NunoMaduro\Collision\Contracts\void {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Declaration of NunoMaduro\\Collision\\Writer::write(Whoops\\Exception\\Inspector $inspector): NunoMaduro\\Collision\\void must be compatible with NunoMaduro\\Collision\\Contracts\\Writer::write(Whoops\\Exception\\Inspector $inspector): NunoMaduro\\Collision\\Contracts\\void at E:\\project\\dinastangsel\\sistem\\DinsosTSL-master\\vendor\
+unomaduro\\collision\\src\\Writer.php:27)
+[stacktrace]
+#0 {main}
+"} 
