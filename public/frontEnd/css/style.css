@@ -58,7 +58,7 @@ padding:0;
 }
 /*----*/
 .header{
-	background:#333;
+	background:#32487B;
 	padding:2em 0 1em;
 }
 .header-top{
@@ -73,7 +73,7 @@ padding:0;
 	width:50%;
 }
 .logo a h1{
-	color:#FF008C;
+	color:#FFFFFF;
 	 font-family: 'Dosis-Bold';
 font-size:3em;	
 	display:inline-block;
@@ -227,7 +227,7 @@ span.menu{
 }
 /*--banner--*/
 .banner{
-	background:url(../images/bnr3.jpg) no-repeat 0px 0px;
+	background:url(../images/background3.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:650px;
 	padding-top:17em;
