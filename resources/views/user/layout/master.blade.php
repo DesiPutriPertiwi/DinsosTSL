@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Dinas Sosial Tangerang Selatan</title>
+     	<link rel="icon" href="{!!asset('/image/logo/dinsos/dinsos.png')!!}"/>
+		<title>Dinas Sosial Tangerang Selatan</title>	
         <link href="frontEnd/css/bootstrap.css" rel='stylesheet' type='text/css' />
         <!-- jQuery (Bootstrap's JavaScript plugins) -->
         <script src="frontEnd/js/jquery.min.js"></script>
@@ -19,17 +20,15 @@
             <div class="container">
                 <div class="header-top">
                     <div class="logo">
-                        <a href="index.html"><h1>Dinas Sosial<span>Kota Tangerang Selatan</span></h1></a>
+                        <img src="{{ asset('image/logo/dinsos.png')}}" name="aboutme" style="margin-left:10px" width="100" height="100">
+						<a href="index.html"><h1>Dinas Sosial<span>Kota Tangerang Selatan</span></h1></a>
                     </div>
                     <div class="hdr-address">
-                        <div class="address1">
-                            <h5> 9560 St, Eiusmod Tempor inc</h5>
-                            <p>Los Angeles County, California</p>
-                        </div>
-                        <div class="call">
-                            <h5>+2 800 544 6035</h5>
-                            <p>Call me</p>
-                        </div>
+                        <div style="margin-left:150px">
+							<img src="{{ asset('image/logo/pkh.png')}}" name="aboutme" style="margin-left:50px" width="100" height="50">
+							<img src="{{ asset('image/logo/tksk.png')}}" name="aboutme"  style="margin-left:30px"width="80" height="80">	
+                        	<img src="{{ asset('image/logo/tagana.png')}}" name="aboutme" style="margin-left:30px" width="60" height="70">
+						</div>
                         <div class="clearfix"></div>
                     </div>
                     <div class="search">
@@ -56,8 +55,8 @@
                     <span class="menu">MENU</span>
                     <ul>
                         <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>BERANDA</a></li>
-                        <li><a href="about.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>RESOS</a></li>
-                        <li><a href="shortcodes.html"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>DAYASOS & FPM</a></li>
+                        <li><a href="about.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>RESOS</a></li>
+                        <li><a href="shortcodes.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>DAYASOS & FPM</a></li>
                         <li><a href="gallery.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>LINJAMSOS</a></li>
                     </ul>
                 </div>
@@ -87,7 +86,7 @@
 					  });
 					});
 			 </script>
-			 <div class="slider">
+			 <!--<div class="slider">
 				 <div class="callbacks_container">
 				     <ul class="rslides" id="slider">
 						 <li>	          
@@ -104,13 +103,13 @@
 						 </li>
 					  </ul>
 				 </div>
-			 </div>
-			  <!----->		  
+			 </div>-->
+			  -		  
 
 	 </div>
 </div>
 <!---->
-<div class="welcome">
+<!--<div class="welcome">
 	 <div class="container">
 		 <div class="welcome-top">
 			 <h3>Welcome To Our Charity</h3>
@@ -149,9 +148,9 @@
 			  <div class="clearfix"></div>
 		 </div>		 
 	 </div>
-</div>
+</div>-->
 <!---->
-<div class="mission">
+<!--<div class="mission">
 	 <div class="container">
 		 <h3>Our Mission</h3>
 		 <div class="mission-sec">
@@ -188,7 +187,7 @@
 		 </div>
 	 </div>
 </div>
-<!---->
+<!---
 <div class="join">
 	 <div class="container">
 		 <div class="col-md-9 join-info">
@@ -200,11 +199,11 @@
 		 </div>
 		  <div class="clearfix"></div>
 	 </div>
-</div>
+</div>-->
 <!---->
 <div class="bottom-grids">
 	 <div class="container">
-		 <div class="col-md-5 bottom-left-grid">
+		 <!--<div class="col-md-5 bottom-left-grid">
 			 <h3>Featured Project</h3>
 			 <div class="project">				 
 				 <img src="images/pic.jpg" class="img-responsive" alt=""/>
@@ -222,9 +221,9 @@
 					 <li><a href="#"><span class="glyphicon2 glyphicon-menu-right" aria-hidden="true"></span>Founders</a></li>
 				 </ul>
 			 </div>
-		</div>
+		</div>-->
 		 <div class="col-md-7 bottom-right-grid">
-			  <h3>News & Events</h3>
+			  <!--<h3>News & Events</h3>
 			  <div class="event-grids">
 					<div class="col-md-5 event-pic">
 						 <img src="images/e1.jpg" class="img-responsive" alt=""/> 
@@ -255,28 +254,41 @@
 					 <input type="submit" value="Subscribe">
 					 <div class="clearfix"></div>
 			  	 </form>
-			 </div>
+			 </div>-->
 			  <div class="social">
 				 <div class="social-grid">
 					 <h4>Find Us On Social Network:</h4>
 					 <p>Vestibulum metus bibendum tempus.</p>
 				 </div>
 				 <div class="icons">
-					 <a href="#"><i class="facebook"></i></a>
+					<a href="#"><i class="facebook"></i></a>
 					<a href="#"><i class="twitter"></i></a>
 					<a href="#"><i class="dribble"></i></a>	
 					<a href="#"><i class="google"></i></a>	
 					<a href="#"><i class="youtube"></i></a>	
-
 				 </div>
-				 <div class="clearfix"></div>
+				 <div class="clearfix"> 
+				 </div>
 			  </div>
 		 </div>
-		 <div class="clearfix"></div>
+		 <div class="clearfix">
+		 	<!--<div class="copywrite">-->
+				<!--<div class="container">
+						<p> © 2015 Charity. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+				</div>-->
+			<!--</div>-->
+		 </div>
 	 </div>
 </div>
 <!---->
 <div class="copywrite">
+	<!--<div class="sosial" >
+		<a href="#"><i class="facebook"></i></a>
+		<a href="#"><i class="twitter"></i></a>
+		<a href="#"><i class="dribble"></i></a>	
+		<a href="#"><i class="google"></i></a>	
+		<a href="#"><i class="youtube"></i></a>	
+	</div>-->
 	 <div class="container">
 			 <p> © 2015 Charity. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
 	 </div>
