@@ -811,22 +811,29 @@ body {
 # site-footer
 ------------------------------------------------------------*/
 .site-footer {
+    position: absolute;
+    background: url(../../image/background/footer.png) no-repeat 0px 0px;
+    /*background-size: cover;*/
+}
+
+
+/*.site-footer {
     position: relative;
     padding: 40px 0 30px;
-    background: url(images/footer-cover.jpg) no-repeat;
+    background: hsla(0, 0%, 5%, 0.7);
     background-size: cover;
 }
 
 .site-footer::before {
     position: absolute;
-    content: " ";
+    content: "";
     height: 100%;
     width: 100%;
     z-index: 3;
-    background: hsla(0, 0%, 5%, 0.7);
+    background:url(../../image/background/footer.jpg) no-repeat 0px 0px;
     top: 0;
     left: 0;
-}
+}*/
 
 .site-footer .footer-cover-title {
     min-height: 480px;
@@ -848,11 +855,11 @@ body {
 ## .site-footer footer-content-wrapper
 ------------------------------------------------------------*/
 .footer-content-wrapper {
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     height: auto;
     z-index: 4;
-    top: 130px;
+    /*top: 130px;*/
     left: 0;
     padding: 6px 0;
     text-align: center;
