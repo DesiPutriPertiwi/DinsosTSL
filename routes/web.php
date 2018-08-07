@@ -12,3 +12,6 @@
 */
 
 Route::get('/','user\HomeController@index');
+Route::get('/dayasos&fpm', 'user\DayasosController@index');
+Route::get('/resos', 'user\ResosController@index');
+Route::get('/linjamsos', 'user\LinjamsosController@index');
