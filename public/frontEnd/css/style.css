@@ -334,6 +334,14 @@ body {
     background-size: 100% auto;
 }
 
+.contents-section {
+    min-height: 770px;
+    width: 100%;
+    padding-bottom: 120px;
+    background: url("../../image/background/backgroundAll.png") no-repeat;
+    background-size: 100% auto;
+}
+
 .content-section .middle-cover {
     margin: 0;
     padding: 0;
@@ -813,7 +821,7 @@ body {
 .site-footer {
     position: absolute;
     background: url(../../image/background/footer.png) no-repeat 0px 0px;
-    /*background-size: cover;*/
+    background-size: cover;
 }
 
 
@@ -855,13 +863,13 @@ body {
 ## .site-footer footer-content-wrapper
 ------------------------------------------------------------*/
 .footer-content-wrapper {
-    /*position: absolute;*/
+    position: relative;
     width: 100%;
     height: auto;
     z-index: 4;
-    /*top: 130px;*/
+    top: 5px;
     left: 0;
-    padding: 6px 0;
+    /*padding: 6px 0;*/
     text-align: center;
 }
 
@@ -901,13 +909,15 @@ body {
 }
 
 .footer-content-wrapper .copyright-info {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     font-size: 12px;
     color: hsl(0, 0%, 100%);
 }
 
 .footer-content-wrapper .footer-social {
-    margin-top: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
 }
 
 .footer-content-wrapper .footer-social .flex {
@@ -921,7 +931,7 @@ body {
 }
 
 .footer-content-wrapper .footer-social ul a {
-    padding: 5px 16px;
+    padding: 5px 5px;
     font-size: 12px;
     color: hsl(0, 0%, 100%);
 }
