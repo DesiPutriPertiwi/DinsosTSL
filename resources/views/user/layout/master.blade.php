@@ -26,9 +26,8 @@
         
 
         <!--Main content-->		   
-        <section>
-            
-            @yield('content')
+        <section>    
+        @yield('content')
         </section>
 
         <!--Footer section-->

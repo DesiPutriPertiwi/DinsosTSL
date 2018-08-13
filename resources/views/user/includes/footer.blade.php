@@ -5,8 +5,8 @@
                     <div class="col-md-10" style="margin-left:100px">
                         <div class="footer-social" >
                             <ul class="flex justify-content-right align-items-right">
-                                <li><a href="#"><img src="{{asset('image/icon/instagram.png')}}" width="50px" height="50px"></a></li>
-                                <li><a href="#"><img src="{{asset('image/icon/facebook.png')}}" width="50px" height="50px"></a></li>
+                                <li><a href="https://www.instagram.com/humaskotatangsel/?hl=id"><img src="{{asset('image/icon/instagram.png')}}" width="50px" height="50px"></a></li>
+                                <li><a href="https://www.facebook.com/pages/Dinas-Sosial-Ketenagakerjaan-dan-Transmigrasi-Kota-Tangerang-Selatan/195052937186433"><img src="{{asset('image/icon/facebook.png')}}" width="50px" height="50px"></a></li>
                                 <li><a href="#"><img src="{{asset('image/icon/twitter.png')}}" width="45px" height="45px"></a></li>
                                 <li><a href="#"><img src="{{asset('image/icon/youtube.png')}}" width="50px" height="50px" style="margin-right:100px"></a></li>
                                 <li>
