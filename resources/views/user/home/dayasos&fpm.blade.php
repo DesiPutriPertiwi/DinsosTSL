@@ -31,7 +31,7 @@
                         <!--Box 1.1-->
                         <div class="col-12 col-md-6">
                             <figure class="featured-image">
-                                <a href="#" data-toggle="modal" data-target="#myModal"> <img src="data/dayasos/Hasil rekap verval kel.jpg" alt="fesival+celebration"> </a>
+                                <a href="#" data-toggle="modal" data-target="#myModal"> <img src="data/dayasos/dayasos rekap kec kel 2.png" alt="fesival+celebration"> </a>
                             </figure><!-- featured-image -->
 
                             <div class="content-wrapper">
@@ -60,7 +60,7 @@
                                           Hasil rekapitulasi verifikasi dan validasi data individu, rumah tangga, dan keluarga Kota Tangerang Selatan.
                                     </p>
                                     <figure class="featured-image">
-                                        <img src="data/dayasos/Hasil rekap verval kel.jpg" alt="fesival+celebration">
+                                        <img src="data/dayasos/dayasos rekap kec kel.png" alt="fesival+celebration">
                                     </figure> <!--featured-image -->
                                     
                                 </div>
