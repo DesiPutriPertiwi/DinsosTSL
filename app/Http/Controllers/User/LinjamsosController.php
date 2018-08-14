@@ -8,6 +8,6 @@ use App\Http\Controllers\Controller;
 class LinjamsosController extends Controller
 {
     public function index(){
-        return view('user.home.linjamsos');
+        return view('user.linjamsos.linjamsos');
     }
 }
