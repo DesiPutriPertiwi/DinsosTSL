@@ -11,26 +11,26 @@
 |
 */
 // Beranda
-Route::get('/','user\HomeController@index');
+Route::get('/','User\HomeController@index');
 
 
 // Resos
-Route::get('/konten-resos-kemiskinan', 'user\ResosController@kemiskinan');
-Route::get('/konten-resos-korbanbencana', 'user\ResosController@korban');
-Route::get('/konten-resos-keterlantaran', 'user\ResosController@keterlantaran');
-Route::get('/konten-resos-ketunaansosial', 'user\ResosController@ketunaan');
-Route::get('/konten-resos-kedisabilitasan', 'user\ResosController@kedisabilitasan');
-Route::get('/konten-resos-ktk', 'user\ResosController@ktk');
-Route::get('/data-resos-uap', 'user\ResosController@dataUap');
-Route::get('/data-resos-anak', 'user\ResosController@dataAnak');
-Route::get('/data-resos-lansia', 'user\ResosController@dataLansia');
-Route::get('/data-resos-abc', 'user\ResosController@dataAbc');
+Route::get('/konten-resos-kemiskinan', 'User\ResosController@kemiskinan');
+Route::get('/konten-resos-korbanbencana', 'User\ResosController@korban');
+Route::get('/konten-resos-keterlantaran', 'User\ResosController@keterlantaran');
+Route::get('/konten-resos-ketunaansosial', 'User\ResosController@ketunaan');
+Route::get('/konten-resos-kedisabilitasan', 'User\ResosController@kedisabilitasan');
+Route::get('/konten-resos-ktk', 'User\ResosController@ktk');
+Route::get('/data-resos-uap', 'User\ResosController@dataUap');
+Route::get('/data-resos-anak', 'User\ResosController@dataAnak');
+Route::get('/data-resos-lansia', 'User\ResosController@dataLansia');
+Route::get('/data-resos-abc', 'User\ResosController@dataAbc');
 
 
 // Dayasos
-Route::get('/dayasos&fpm-keseluruhan', 'user\DayasosController@index');
-Route::get('/dayasos&fpm-rincian', 'user\DayasosController@rinci');
+Route::get('/dayasos&fpm-keseluruhan', 'User\DayasosController@index');
+Route::get('/dayasos&fpm-rincian', 'User\DayasosController@rinci');
 
 
 //linjamsos 
-Route::get('/linjamsos', 'user\LinjamsosController@index');
+Route::get('/linjamsos', 'User\LinjamsosController@index');
