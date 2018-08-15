@@ -124,7 +124,7 @@
                             <!--Box 2.3-->
                             <div class="col-12 col-md-4">
                                 <figure class="featured-image" data-toggle="modal" data-target="#myModal4">
-                                    <a href="#" > <img src="data/dayasos/rekap rinci kec kk.jpg" alt="fesival+celebration"> </a>
+                                    <a href="#" > <img src="data/dayasos/dayasos rinci kec kk.png" alt="fesival+celebration"> </a>
                                 </figure><!-- featured-image -->
 
                                 <div class="content-wrapper">
@@ -153,7 +153,7 @@
                                             Hasil rekapitulasi verifikasi dan validasi data individu, rumah tangga, dan keluarga Kota Tangerang Selatan.
                                         </p>
                                         <figure class="featured-image">
-                                            <img src="data/dayasos/rekap rinci kec kk.jpg" alt="fesival+celebration">
+                                            <img src="data/dayasos/dayasos rinci kec kk.png" alt="fesival+celebration">
                                         </figure> <!--featured-image -->
                                         
                                     </div>

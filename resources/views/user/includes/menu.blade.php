@@ -9,7 +9,7 @@
         </div><!-- .hamburger-menu -->
 
         <ul>
-            <li class="active"><a href="/"><h5><b>HOME</b></h5></a></li>
+            <li class="active"><a href="home"><h5><b>HOME</b></h5></a></li>
             <li>
                 <a href="#" class=""><h5><b>RESOS<span style="margin-left:15px"class="dropdown-toggle"></span></b></h5></a>
                 <ul class="children sub-menu">
