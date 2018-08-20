@@ -27,7 +27,7 @@ class ResosController extends Controller
         return view('user.resos.konten-kemiskinan');
     }
 
-    public function kedisablititasan(){
+    public function kedisabilitasan(){
         return view('user.resos.konten-kedisabilitasan');
     }
 
@@ -47,4 +47,11 @@ class ResosController extends Controller
         return view('user.resos.konten-ktk');
     }
 
+    public function pmks(){
+        return view('user.resos.konten-pmks');
+    }
+
+    public function psks(){
+        return view('user.resos.konten-psks');
+    }
 }
