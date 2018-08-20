@@ -30,7 +30,7 @@
                             <!--Box 2.1-->
                             <div class="col-12 col-md-4">
                                 <figure class="featured-image" data-toggle="modal" data-target="#myModal2">
-                                    <a href="#"> <img src="data/dayasos/dayasos rinci kec kel.png" alt="fesival+celebration"> </a>
+                                    <a href="#"> <img src="data/dayasos/dayasos rinci kec kel 2.png" alt="fesival+celebration"> </a>
                                 </figure><!-- featured-image -->
 
                                 <div class="content-wrapper">
@@ -79,11 +79,11 @@
                                 <figure class="featured-image" data-toggle="modal" data-target="#myModal3">
                                     <a href="#" > <img src="data/dayasos/dayasos rinci kec.png" alt="fesival+celebration"> </a>
                                 </figure><!-- featured-image -->
-
+                                
                                 <div class="content-wrapper">
                                     <div class="entry-content">
                                         <div class="entry-header" data-toggle="modal" data-target="#myModal3">
-                                            <h2>Rincian Hasil Verifikasi Validasi Kecamatan 2017</h2>
+                                            <h2>Rincian Hasil Verifikasi Validasi Kecamatan 2017</h2> <br><br>
                                         </div><!-- entry-header -->
                                     </div><!-- entry-content -->
                                 </div><!-- content-wrapper -->

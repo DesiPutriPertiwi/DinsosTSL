@@ -17,7 +17,7 @@
                         <div class="entry-title" style="color:goldenrod">
                             <h2 style="text-shadow: 2px 2px 5px #ffc107">Karakteristik Keterlantaran di Kota Tangerang Selatan 2017</h2>
                             <p style="padding-top:30px">
-                                Berupa rangkuman dari karakteristik anak keterlantaran yang ada di Kota Tanggerang Selatan.
+                                Berupa data ketelantaran anak maupun lansia dari berbagai kecamatan di Kota Tangerang Selatan. 
                             </p>
                         </div><!-- entry-title -->
                     </div><!-- header -->
@@ -30,13 +30,13 @@
                             <!--Box 1.1-->
                             <div class="col-12 col-md-6">
                                 <figure class="featured-image">
-                                    <a href="#" data-toggle="modal" data-target="#myModal"> <img src="data/resos/konten-keterlantaran1.jpg" alt="fesival+celebration"> </a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal"> <img src="data/resos/resos-keterlantaran1.png" alt="fesival+celebration"> </a>
                                 </figure><!-- featured-image -->
 
                                 <div class="content-wrapper">
                                     <div class="entry-content">
                                         <div class="entry-header" data-toggle="modal" data-target="#myModal">
-                                            <h2>Karakteristik Anak/Keterlantaran I Berdasarkan Kecamatan di Kota Tangerang Selatan 2017</h2>
+                                            <h2>Anak/Keterlantaran I Berdasarkan Kecamatan di Kota Tangerang Selatan 2017</h2>
                                         </div><!-- entry-header -->
                                     </div><!-- entry-content -->
                                 </div><!-- content-wrapper -->
@@ -49,17 +49,17 @@
                                 
                                     <!-- Modal Header -->
                                     <div class="modal-header">
-                                        <h4 class="modal-title">Karakteristik Anak/Keterlantaran I Berdasarkan Kecamatan di Kota Tangerang Selatan 2017</h4>
+                                        <h4 class="modal-title">Anak/Keterlantaran I Berdasarkan Kecamatan di Kota Tangerang Selatan 2017</h4>
                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     </div>
                                     
                                     <!-- Modal body -->
                                     <div class="modal-body">
                                         <p>
-                                            Hasil rekapitulasi verifikasi dan validasi data individu, rumah tangga, dan keluarga Kota Tangerang Selatan.
+                                            Sumber : Hasil Pendataan PMKS 2017
                                         </p>
                                         <figure class="featured-image">
-                                            <img src="data/resos/konten-keterlantaran1.jpg" alt="fesival+celebration">
+                                            <img src="data/resos/resos-keterlantaran1.png" alt="fesival+celebration">
                                         </figure> <!--featured-image -->
                                         
                                     </div>
@@ -77,13 +77,13 @@
                             <!--Box 1.2-->
                             <div class="col-12 col-md-6">
                                 <figure class="featured-image" data-toggle="modal" data-target="#myModal1">
-                                    <a href="#"> <img src="data/resos/konten-keterlantaran2.jpg" alt="fesival+celebration"> </a>
+                                    <a href="#"> <img src="data/resos/resos-keterlantaran2.png" alt="fesival+celebration"> </a>
                                 </figure><!-- featured-image -->
 
                                 <div class="content-wrapper">
                                     <div class="entry-content">
                                         <div class="entry-header" data-toggle="modal" data-target="#myModal1">
-                                            <h2>Karakteristik Anak/Keterlantaran II Berdasarkan Kecamatan di Kota Tangerang Selatan 2017</h2>
+                                            <h2>Anak/Keterlantaran II Berdasarkan Kecamatan di Kota Tangerang Selatan 2017</h2>
                                         </div><!-- entry-header -->
                                     </div><!-- entry-content -->
                                 </div><!-- content-wrapper -->
@@ -96,17 +96,17 @@
                                     
                                         <!-- Modal Header -->
                                         <div class="modal-header">
-                                            <h4 class="modal-title">Karakteristik Anak/Keterlantaran II Berdasarkan Kecamatan di Kota Tangerang Selatan 2017</h4>
+                                            <h4 class="modal-title">Anak/Keterlantaran II Berdasarkan Kecamatan di Kota Tangerang Selatan 2017</h4>
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         
                                         <!-- Modal body -->
                                         <div class="modal-body">
                                             <p>
-                                                Hasil rekapitulasi verifikasi dan validasi data individu, rumah tangga, dan keluarga Kota Tangerang Selatan.
+                                                Sumber : Hasil Pendataan PMKS 2017
                                             </p>
                                             <figure class="featured-image">
-                                                <img src="data/resos/konten-keterlantaran2.jpg" alt="fesival+celebration">
+                                                <img src="data/resos/resos-keterlantaran2.png" alt="fesival+celebration">
                                             </figure> <!--featured-image -->
                                             
                                         </div>

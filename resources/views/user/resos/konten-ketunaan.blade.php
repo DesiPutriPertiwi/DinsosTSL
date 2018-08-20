@@ -15,10 +15,9 @@
                 <div class="container">
                     <div class="header">
                         <div class="entry-title" style="color:goldenrod">
-                            <h2 style="text-shadow: 2px 2px 5px #ffc107">Rekaplitulasi VERVAL 2017 (KEC/KEL)</h2>
+                            <h2 style="text-shadow: 2px 2px 5px #ffc107">Karakteristik ketunaan Sosial dan Penyimpangan Perilaku di Kota Tangerang Selatan</h2>
                             <p style="padding-top:30px">
-                                Hasil rekapitulasi verifikasi dan validasi data individu, rumah tangga, dan keluarga Kota Tangerang Selatan.
-                                Data bersumber dari Basis Data Terpadu oleh Kementrian Sosial RI 2017. 
+                                Berupa data ketunaan sosial maupun penyimpangan perilaku dari berbagai kecamatan di Kota Tangerang Selatan.  
                             </p>
                         </div><!-- entry-title -->
                     </div><!-- header -->
@@ -31,13 +30,15 @@
                             <!--Box 1.1-->
                             <div class="col-12 col-md-6">
                                 <figure class="featured-image">
-                                    <a href="#" data-toggle="modal" data-target="#myModal"> <img src="data/dayasos/dayasos rekap kec kel 2.png" alt="fesival+celebration"> </a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal"> 
+                                       <img src="data/resos/resos-ketunaan1.png" alt="fesival+celebration"> 
+                                    </a>
                                 </figure><!-- featured-image -->
 
                                 <div class="content-wrapper">
                                     <div class="entry-content">
                                         <div class="entry-header" data-toggle="modal" data-target="#myModal">
-                                            <h2>Rekap Hasil Verifikasi Validasi Kecamatan Kelurahan 2017</h2>
+                                            <h2>Karakteristik ketunaan Sosial dan Penyimpangan Perilaku Berdasarkan Kecamatan di Kota Tangerang Selatan 2017 (1)</h2>
                                         </div><!-- entry-header -->
                                     </div><!-- entry-content -->
                                 </div><!-- content-wrapper -->
@@ -50,17 +51,17 @@
                                 
                                     <!-- Modal Header -->
                                     <div class="modal-header">
-                                        <h4 class="modal-title">Rekap Hasil Verifikasi Validasi Kecamatan Kelurahan 2017</h4>
+                                        <h4 class="modal-title">Karakteristik ketunaan Sosial dan Penyimpangan Perilaku Berdasarkan Kecamatan di Kota Tangerang Selatan 2017 (1)</h4>
                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     </div>
                                     
                                     <!-- Modal body -->
                                     <div class="modal-body">
                                         <p>
-                                            Hasil rekapitulasi verifikasi dan validasi data individu, rumah tangga, dan keluarga Kota Tangerang Selatan.
+                                            Sumber : Hasil Pendataan PMKS 2017
                                         </p>
                                         <figure class="featured-image">
-                                            <img src="data/dayasos/dayasos rekap kec kel.png" alt="fesival+celebration">
+                                            <img src="data/resos/resos-ketunaan1.png" alt="fesival+celebration">
                                         </figure> <!--featured-image -->
                                         
                                     </div>
@@ -78,13 +79,13 @@
                             <!--Box 1.2-->
                             <div class="col-12 col-md-6">
                                 <figure class="featured-image" data-toggle="modal" data-target="#myModal1">
-                                    <a href="#"> <img src="data/dayasos/dayasos rekap kec.png" alt="fesival+celebration"> </a>
+                                    <a href="#"> <img src="data/resos/resos-ketunaan2.png" alt="fesival+celebration"> </a>
                                 </figure><!-- featured-image -->
 
                                 <div class="content-wrapper">
                                     <div class="entry-content">
                                         <div class="entry-header" data-toggle="modal" data-target="#myModal1">
-                                            <h2>Rekap Hasil Verifikasi Validasi Kecamatan 2017</h2>
+                                            <h2>Ketunaan Sosial dan Penyimpangan Perilaku Berdasarkan Kecamatan di Kota Tangerang Selatan 2017 (2)</h2>
                                         </div><!-- entry-header -->
                                     </div><!-- entry-content -->
                                 </div><!-- content-wrapper -->
@@ -97,17 +98,17 @@
                                     
                                         <!-- Modal Header -->
                                         <div class="modal-header">
-                                            <h4 class="modal-title">Rekap Hasil Verifikasi Validasi Kecamatan 2017</h4>
+                                            <h4 class="modal-title">Karakteristik ketunaan Sosial dan Penyimpangan Perilaku Berdasarkan Kecamatan di Kota Tangerang Selatan 2017 (2)</h4>
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         
                                         <!-- Modal body -->
                                         <div class="modal-body">
                                             <p>
-                                                Hasil rekapitulasi verifikasi dan validasi data individu, rumah tangga, dan keluarga Kota Tangerang Selatan.
+                                                Sumber : Hasil Pendataan PMKS 2017
                                             </p>
                                             <figure class="featured-image">
-                                                <img src="data/dayasos/dayasos rekap kec.png" alt="fesival+celebration">
+                                                <img src="data/resos/resos-ketunaan2.png" alt="fesival+celebration">
                                             </figure> <!--featured-image -->
                                             
                                         </div>

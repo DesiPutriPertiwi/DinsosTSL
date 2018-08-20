@@ -6,7 +6,10 @@
     <script src='frontEnd/modal/bootstrap.min.js'></script>
 <!--.Modal bootstrap-->
 
-@include('user.includes.header')
+
+<!--Header-->
+@include('user.includes.header');
+<!--.Header-->
 
 <div class="contents-section">
     <div class="container">

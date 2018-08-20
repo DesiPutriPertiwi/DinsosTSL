@@ -31,7 +31,9 @@
                             <li><a href="konten-resos-keterlantaran">Keterlantaran</a></li>
                             <li><a href="konten-resos-ketunaansosial">Ketunaan Sosial</a></li> 
                             <li><a href="konten-resos-kedisabilitasan">Kedisabilitasan</a></li>
-                            <li><a href="konten-resos-ktk">Korban Tindak Kekerasan</a></li>         
+                            <li><a href="konten-resos-ktk">Korban Tindak Kekerasan</a></li>
+                            <li><a href="konten-resos-pmks">Penyandang Masalah Kesejahteraan</a></li>
+                            <li><a href="konten-resos-psks">Potensi dan Sumber Kesejahteraan Sosial</a></li>             
                         </ul>
                     </li>        
                 </ul>
