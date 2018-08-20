@@ -21,14 +21,6 @@
                         </div><!-- footer-social -->
                     </div><!-- col -->
                 </div><!-- row -->
-    
-                <!--<div class="row">
-                    <div class="copyright-info">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. 
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="#">Dinas Sosial Tangerang Selatan </a><i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Spies</a>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. 
-                    </div><!-- copyright-info 
-                </div>-->
             </div><!-- container -->
         </div><!-- footer-content-wrapper -->
     </footer><!-- site-footer -->

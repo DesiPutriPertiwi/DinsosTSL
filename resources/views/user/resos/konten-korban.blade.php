@@ -10,7 +10,7 @@
 @include('user.includes.header')
 <!--.Header-->
 
-
+<!--Body-->
 <div class="contents-section">
     <div class="container">
         <div class="row">
@@ -48,31 +48,31 @@
                             <!-- The Modal -->
                             <div class="modal" id="myModal">
                                 <div class="modal-dialog-sm">
-                                <div class="modal-content">
-                                
-                                    <!-- Modal Header -->
-                                    <div class="modal-header">
-                                        <h4 class="modal-title">Korban Bencana berdasarkan Kecamatan di Kota Tanggerang Selatan 2017</h4>
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    </div>
+                                    <div class="modal-content">
                                     
-                                    <!-- Modal body -->
-                                    <div class="modal-body">
-                                        <p>
-                                            Sumber  : Hasil Pendataan PMKS tahun 2017
-                                        </p>
-                                        <figure class="featured-image">
-                                            <img src="data/resos/resos-korbanbencana.png" alt="fesival+celebration">
-                                        </figure> <!--featured-image -->
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Korban Bencana berdasarkan Kecamatan di Kota Tanggerang Selatan 2017</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <p>
+                                                Sumber  : Hasil Pendataan PMKS tahun 2017
+                                            </p>
+                                            <figure class="featured-image">
+                                                <img src="data/resos/resos-korbanbencana.png" alt="fesival+celebration">
+                                            </figure> <!--featured-image -->
+                                            
+                                        </div>
+                                        
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                        </div>
                                         
                                     </div>
-                                    
-                                    <!-- Modal footer -->
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                    </div>
-                                    
-                                </div>
                                 </div>
                             </div>
                             <!--.Box 1.1-->
@@ -86,3 +86,4 @@
         </div> <!--.row-->
     </div> <!--.container-->
 </div> <!--.content-section-->
+<!--.Body-->
