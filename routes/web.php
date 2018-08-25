@@ -23,7 +23,7 @@ Route::get('/konten-resos-kedisabilitasan', 'User\ResosController@kedisabilitasa
 Route::get('/konten-resos-ktk', 'User\ResosController@ktk');
 Route::get('/konten-resos-pmks', 'User\ResosController@pmks');
 Route::get('/konten-resos-psks', 'User\ResosController@psks');
-Route::get('/data-resos-uap', 'User\ResosController@dataUap');
+Route::get('/data-resos-uep', 'User\ResosController@dataUep');
 Route::get('/data-resos-anak', 'User\ResosController@dataAnak');
 Route::get('/data-resos-lansia', 'User\ResosController@dataLansia');
 Route::get('/data-resos-abc', 'User\ResosController@dataAbc');
