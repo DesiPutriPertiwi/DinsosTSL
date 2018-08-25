@@ -1,4 +1,5 @@
 @extends('user.layout.master')
+@section('content')
 
 <!--Modal bootstrap-->
     <script src='frontEnd/modal/jquery.min.js'></script>
@@ -7,12 +8,7 @@
 <!--.Modal bootstrap-->
 
 
-<!--Header-->
-@include('user.includes.header')
-<!--.Header-->
-
 <!--Body-->
-<div class="contents-section">
     <div class="container">
         <div class="row">
             <div class="col-sm-10" style="margin-top:20%; margin-left:20%">   
@@ -87,5 +83,5 @@
             </div><!-- .col-sm-10 -->
         </div> <!--.row-->
     </div> <!--.container-->
-</div> <!--.content-section-->
 <!--.Body-->
+@endsection

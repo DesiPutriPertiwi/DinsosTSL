@@ -1,4 +1,5 @@
 @extends('user.layout.master')
+@section('content')
 
 <!--Tabel css-->
         <link rel="stylesheet" type="text/css" href="frontEnd/tabel/vendor/bootstrap/css/bootstrap.min.css">
@@ -10,13 +11,7 @@
         <link rel="stylesheet" type="text/css" href="frontEnd/tabel/css/main.css">
 <!--.Tabel css-->
 
-<!--Header-->
-@include('user.includes.header')
-<!--.Header-->
-
-
 <!--Body-->
-<div class="contents-section">
         <div class="container">
                 <div class="row">
                         <div class="col-sm-10" style="margin-top:20%; margin-left:20%">   
@@ -35,53 +30,44 @@
                                                 <table data-vertable="ver2">
                                                         <thead>
                                                                 <tr class="row100 head">
-                                                                        <th class="column100 column1" data-column="column1">No.</th>
-                                                                        <th class="column100 column2" data-column="column2">Nama Lengkap</th>
-                                                                        <th class="column100 column3" data-column="column3">NIK E-KTP</th>
-                                                                        <th class="column100 column4" data-column="column4">Alamat Lengkap</th>
-                                                                        <th class="column100 column5" data-column="column5">Tempat Tanggal Lahir</th>
-                                                                        <th class="column100 column6" data-column="column6">Jenis Kelamin</th>
-                                                                        <th class="column100 column7" data-column="column7">Usaha yang Dimiliki</th>
+                                                                        <th class="column100 column2 text-center" data-column="column2">No.</th>
+                                                                        <th class="column100 column2 text-center" data-column="column2">Nama Lengkap</th>
+                                                                        <th class="column100 column6 text-center" data-column="column6">Jenis Kelamin</th>
+                                                                        <th class="column100 column7 text-center" data-column="column7">Usaha yang Dimiliki</th>
                                                                 </tr>
                                                                 <tr class="row100 head" style="color:#6c757d">
-                                                                        <th class="column100 column1" data-column="column1">1</th>
-                                                                        <th class="column100 column2" data-column="column2">2</th>
-                                                                        <th class="column100 column3" data-column="column3">3</th>
-                                                                        <th class="column100 column4" data-column="column4">4</th>
-                                                                        <th class="column100 column5" data-column="column5">5</th>
-                                                                        <th class="column100 column6" data-column="column6">6</th>
-                                                                        <th class="column100 column7" data-column="column7">7</th>
+                                                                        <th class="column100 column2 text-center" data-column="column2">1</th>
+                                                                        <th class="column100 column2 text-center" data-column="column2">2</th>
+                                                                        <th class="column100 column6 text-center" data-column="column6">6</th>
+                                                                        <th class="column100 column7 text-center" data-column="column7">7</th>
                                                                 </tr>
                                                         </thead>
                                                         <tbody>
-                                                                <tr class="row100">
-                                                                        <td class="column100 column1" data-column="column1">Lawrence Scott</td>
-                                                                        <td class="column100 column2" data-column="column2">8:00 AM</td>
-                                                                        <td class="column100 column3" data-column="column3">--</td>
-                                                                        <td class="column100 column4" data-column="column4">--</td>
-                                                                        <td class="column100 column5" data-column="column5">8:00 AM</td>
-                                                                        <td class="column100 column6" data-column="column6">--</td>
-                                                                        <td class="column100 column7" data-column="column7">5:00 PM</td>
-                                                                </tr>
-
-                                                                <tr class="row100">
-                                                                        <td class="column100 column1" data-column="column1">Jane Medina</td>
-                                                                        <td class="column100 column2" data-column="column2">--</td>
-                                                                        <td class="column100 column3" data-column="column3">5:00 PM</td>
-                                                                        <td class="column100 column4" data-column="column4">5:00 PM</td>
-                                                                        <td class="column100 column5" data-column="column5">--</td>
-                                                                        <td class="column100 column6" data-column="column6">9:00 AM</td>
-                                                                        <td class="column100 column7" data-column="column7">--</td>
-                                                                </tr>
-
-                                                                
+                                                                @foreach($uep as $index=>$ueps)
+                                                                        <tr class="row100">
+                                                                                <td class="column100 column2 text-center" data-column="column2">{{++$index}}</td>
+                                                                                <td class="column100 column2" data-column="column2">{{$ueps->nama}}</td>
+                                                                                <td class="column100 column3" data-column="column3">
+                                                                                        @if($ueps->jenis_kelamin == '0')
+                                                                                                {{"Perempuan"}}
+                                                                                        @else
+                                                                                                {{"Laki-Laki"}}
+                                                                                        @endif                                                         
+                                                                                </td>
+                                                                                <td class="column100 column4" data-column="column4">{{$ueps->usaha}}</td>
+                                                                        </tr>
+                                                                @endforeach
                                                         </tbody>
                                                 </table>
+                                                <div class="pagination">
+                                                        {{$uep->links()}}
+                                                </div>
+                                                
                                         </div> <!--.Tabel100 ver2--> 
         
                                 </div><!--.container-->
                         </div><!--.col-sm-10-->
                 </div> <!--.row-->
         </div> <!--.container-->                        
-</div> <!--.Content-section-->
+@endsection
 <!--.Section-->

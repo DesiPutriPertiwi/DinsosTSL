@@ -21,25 +21,38 @@
         <link rel="stylesheet" href="frontEnd/css/style.css">
     </head>
     <body>
+        <div class="wrapper">
 		
-        <!--Header-->
-        
+            <!--Header-->
+            @include('user.includes.header')
 
-        <!--Main content-->		   
-        <section>    
-        @yield('content')
-        </section>
+            <!--Main content-->	
 
-        <!--Footer section-->
-        @include('user.includes.footer')
+                @if(Request::is('') ? 'class=active' : '')
+                    <section class="content-section">
+                        @yield('content')
+                    </section>
+                @elseif(Request::is('home') ? 'class=active' : '')
+                    <section class="content-section">
+                        @yield('content')
+                    </section>
+                @else
+                    <section class="contents-section">
+                        @yield('content')
+                    </section>
+                @endif
 
-        <script type='text/javascript' src='frontEnd/js/jquery.js'></script>
-        <script type='text/javascript' src='frontEnd/js/masonry.pkgd.min.js'></script>
-        <script type='text/javascript' src='frontEnd/js/jquery.collapsible.min.js'></script>
-        <script type='text/javascript' src='frontEnd/js/swiper.min.js'></script>
-        <script type='text/javascript' src='frontEnd/js/jquery.countdown.min.js'></script>
-        <script type='text/javascript' src='frontEnd/js/circle-progress.min.js'></script>
-        <script type='text/javascript' src='frontEnd/js/jquery.countTo.min.js'></script>
-        <script type='text/javascript' src='frontEnd/js/custom.js'></script>
+            <!--Footer section-->
+            @include('user.includes.footer')
+
+            <script type='text/javascript' src='frontEnd/js/jquery.js'></script>
+            <script type='text/javascript' src='frontEnd/js/masonry.pkgd.min.js'></script>
+            <script type='text/javascript' src='frontEnd/js/jquery.collapsible.min.js'></script>
+            <script type='text/javascript' src='frontEnd/js/swiper.min.js'></script>
+            <script type='text/javascript' src='frontEnd/js/jquery.countdown.min.js'></script>
+            <script type='text/javascript' src='frontEnd/js/circle-progress.min.js'></script>
+            <script type='text/javascript' src='frontEnd/js/jquery.countTo.min.js'></script>
+            <script type='text/javascript' src='frontEnd/js/custom.js'></script>
+        </div> <!--.wrapper-->
 	</body>
 </html>

@@ -1,12 +1,7 @@
 @extends('user.layout.master')
-
-<!--Header-->
-@include('user.includes.header')
-<!--.Header-->
-
+@section('content')
 
 <!--Body-->
-<div class="contents-section">
-                    
-</div><!--.contents-section-->
+
 <!--.Body-->
+@endsection

@@ -16,7 +16,7 @@
                     <li>
                         <a href="#">Data Resos</a>
                         <ul class="children sub-menu">
-                            <li><a href="data-resos-uap">Bansos UAP</a></li>
+                            <li><a href="data-resos-uep">Bansos UEP</a></li>
                             <li><a href="data-resos-anak">Bansos Anak</a></li>
                             <li><a href="data-resos-lansia">Bansos Lansia</a></li>
                             <li><a href="data-resos-abc">Bansos ABC</a></li>         
