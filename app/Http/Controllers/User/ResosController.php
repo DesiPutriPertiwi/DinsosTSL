@@ -4,6 +4,9 @@ namespace App\Http\Controllers\User;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Uep;
+use App\Models\Anak;
+use App\Models\Lansia;
 
 class ResosController extends Controller
 {
@@ -12,15 +15,18 @@ class ResosController extends Controller
     }
 
     public function dataLansia(){
-        return view('user.resos.data-lansia');
+        $lansia = Lansia::select()->paginate(10);
+        return view('user.resos.data-lansia')->with(compact(['lansia', $lansia]));
     }
 
     public function dataAnak(){
-        return view('user.resos.data-anak');
+        $anak = Anak::select()->paginate(10);
+        return view('user.resos.data-anak')->with(compact(['anak', $anak]));
     }
 
-    public function dataUap(){
-        return view('user.resos.data-uap');
+    public function dataUep(){
+        $uep=Uep::select()->paginate(10);
+        return view('user.resos.data-uap')->with(compact(['uep',$uep]));
     }
 
     public function kemiskinan(){
