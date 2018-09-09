@@ -28,7 +28,7 @@
 
             <!--Main content-->	
 
-                @if(Request::is('') ? 'class=active' : '')
+                @if(Request::is('/') ? 'class=active' : '')
                     <section class="content-section">
                         @yield('content')
                     </section>
