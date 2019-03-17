@@ -28,23 +28,25 @@
 
             <!--Main content-->	
 
-                @if(Request::is('/') ? 'class=active' : '')
-                    <section class="content-section">
-                        @yield('content')
-                    </section>
-                @elseif(Request::is('home') ? 'class=active' : '')
-                    <section class="content-section">
-                        @yield('content')
-                    </section>
-                @else
-                    <section class="contents-section">
-                        @yield('content')
-                    </section>
-                @endif
+            @if(Request::is('/') ? 'class=active' : '')
+                <section class="content-section">
+                    @yield('content')
+                </section>
+            @elseif(Request::is('home') ? 'class=active' : '')
+                <section class="content-section">
+                    @yield('content')
+                </section>
+            @else
+                <section class="contents-section">
+                    @yield('content')
+                </section>
+            @endif
 
             <!--Footer section-->
-            @include('user.includes.footer')
-
+            <footer class="site-footer">
+                @include('user.includes.footer')
+            </footer><!-- site-footer -->
+            
             <script type='text/javascript' src='frontEnd/js/jquery.js'></script>
             <script type='text/javascript' src='frontEnd/js/masonry.pkgd.min.js'></script>
             <script type='text/javascript' src='frontEnd/js/jquery.collapsible.min.js'></script>
