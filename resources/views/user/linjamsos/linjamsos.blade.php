@@ -1,7 +1,8 @@
 @extends('user.layout.master')
-
-@include('user.includes.header')
+@section('content')
 
 <div class="contents-section">
         <!--content coming soon-->
 </div>
+
+@endsection
